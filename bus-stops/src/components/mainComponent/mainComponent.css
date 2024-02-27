@@ -1,0 +1,38 @@
+.main-component{
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 100px;
+  margin-bottom: 50px;
+  height: max-content;
+  padding-bottom: 30px;
+}
+
+@media (max-width:1200px) {
+  .main-component .titleText{
+    font-size: 1.1rem !important;
+  }
+  .main-component .row{
+    font-size: 1rem;
+  }
+  .main-component .btnConfirm{
+    font-size: 1rem;
+  }
+}
+@media (max-width:768px) {
+  .main-component .titleText{
+    font-size: 1rem !important;
+  }
+  .main-component .row{
+    font-size: 0.8rem;
+  }
+  .main-component .btnConfirm{
+    font-size: 0.8rem;
+  }
+}
+@media (max-width:575px) {
+  .main-component .titleText{
+    font-size: 0.95rem !important;
+  }
+  .main-component .row{
+    font-size: 0.75rem;
+  }
+}
